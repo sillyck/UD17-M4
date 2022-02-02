@@ -1,0 +1,17 @@
+use m4_ej4
+db.createCollection('Salas')
+db.createCollection('Peliculas')
+db.Salas.insertOne(
+   {
+    _Codigo: 1,
+    Nombre: 'Sala 1',
+    Pelicula: 1
+  }
+)
+db.Peliculas.insertOne(
+   {
+    _Codigo: 1,
+    Nombre: 'Spider-man',
+    CalificacionEdad: 7 
+  }
+)
