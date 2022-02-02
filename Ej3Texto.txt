@@ -1,0 +1,21 @@
+db.createCollection('Almacenes')
+
+db.Almacenes.insertOne(
+ { 
+  _Codigo: 1,
+  Lugar: 'Alcover',
+  Capacidad: 100
+ }
+)
+
+
+db.createCollection('Cajas')
+
+db.Cajas.insertOne(
+ { 
+  _NumReferencia: 'AAB',
+  Contenido: 'Papel',
+  Valor: 1,
+  Almacen: 1
+ }
+)

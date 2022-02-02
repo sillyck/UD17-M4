@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "61fa5eff2790111bddf3a6ee"
+  },
+  "_ASIN": 1,
+  "Titulo": "El señor de los anillos",
+  "FechaLanza": 0.0015353121801432957,
+  "Autor": "J. R. R. Tolkien",
+  "Categoria": "Fantasia",
+  "Editorial": "George Allen Unwin",
+  "Idioma": "Inglés",
+  "Paginas": 423,
+  "Descripcion": "Una lucha entre el bien y el mal",
+  "Portada": "Tapa dura"
+}]
