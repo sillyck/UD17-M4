@@ -1,0 +1,33 @@
+use m4_ej8
+db.createCollection('Facultad')
+db.createCollection('Investigadores')
+db.createCollection('Reserva')
+db.createCollection('Equipos')
+db.Facultad.insertOne(
+   {
+    _Codigo: 1,
+    Nombre: 'Ingenieria'
+  }
+)
+db.Investigadores.insertOne(
+   {
+    _DNI: '12345678A',
+    NomApels: 'Pepe Garcia',
+    Facultad: 1
+  }
+)
+db.Reserva.insertOne(
+   {
+    _DNI: '12345678A',
+    _NumSerie: 'AB14',
+    Comienzo: 10-01-2022,
+    Fin: 21-04-2022
+  }
+)
+db.Equipos.insertOne(
+   {
+    _NumSerie: 'AB14',
+    Nombre: 'Equipo 1',
+    Facultad: 1
+  }
+)

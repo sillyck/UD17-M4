@@ -1,0 +1,23 @@
+use Grandes Almacenes
+db.createCollection('Cajeros')
+db.createCollection('Productos')
+db.createCollection('Venta')
+db.createCollection('Maquinas_Registradoras')
+db.Cajeros.insertOne({
+  _codigo: 1,
+  nomApels: "Joan Rofes Martos",
+})
+db.Productos.insertOne({
+  _codigo: 1,
+  nombre: "monster",
+  precio: 2
+})
+db.Maquinas_Registradoras.insertOne({
+  _codigo: 1,
+  piso: 2
+})
+db.Venta.insertOne({
+  _cajero: 1,
+  _maquina: 3,
+  _producto: 5
+})

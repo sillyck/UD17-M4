@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "61fa6ae9f7007af5c30eb85b"
+  },
+  "_DNI": "12345678A",
+  "_NumSerie": "AB14",
+  "Comienzo": -2013,
+  "Fin": -2005
+}]
