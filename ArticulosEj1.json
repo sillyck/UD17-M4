@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "61fa5e52f7007af5c30eb84f"
+  },
+  "_Codigo": 1,
+  "Nombre": "RTX 3080 Ti",
+  "Precio": 1500,
+  "Fabricante": 1
+}]

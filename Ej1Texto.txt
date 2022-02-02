@@ -1,0 +1,17 @@
+use m4_ej1
+db.createCollection('Fabricantes')
+db.createCollection('Articulos')
+db.Fabricantes.insertOne(
+   {
+    _Codigo: 1,  
+    Nombre: 'Nvidia'
+  }
+)
+db.Articulos.insertOne(
+   {
+    _Codigo: 1,  
+    Nombre: 'RTX 3080 Ti',
+    Precio: 1500,
+    Fabricante: 1
+  }
+)
