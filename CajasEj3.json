@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "61fa67802790111bddf3a6f0"
+  },
+  "_NumReferencia": "AAB",
+  "Contenido": "Papel",
+  "Valor": 1
+},{
+  "_id": {
+    "$oid": "61fa68752790111bddf3a6f1"
+  },
+  "_NumReferencia": "AAB",
+  "Contenido": "Papel",
+  "Valor": 1,
+  "Almacen": 1
+}]
