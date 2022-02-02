@@ -1,0 +1,18 @@
+use m4_ej2
+db.createCollection('Empleados')
+db.createCollection('Departamentos')
+db.Empleados.insertOne(
+   {
+    _DNI: '12345678A',  
+    Nombre: 'Pepe',
+    Apellidos: 'Garcia Sanz',
+    Departamento: 1
+  }
+)
+db.Departamentos.insertOne(
+   {
+    _Codigo: 1,  
+    Nombre: 'Programacion',
+    Presupuesto: 150
+  }
+)
