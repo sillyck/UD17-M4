@@ -1,0 +1,23 @@
+use m4_ej6
+db.createCollection('Piezas')
+db.createCollection('Suministra')
+db.createCollection('Proveedores')
+db.Piezas.insertOne(
+   {
+    _Codigo: 1,
+    Nombre: 'Tornillo'
+  }
+)
+db.Suministra.insertOne(
+   {
+    _CodigoPieza: 1,
+    _IdProveedor: 1,
+    Precio: 2
+  }
+)
+db.Proveedores.insertOne(
+   {
+    _Id: 1,
+    Nombre: 'China'
+  }
+)
