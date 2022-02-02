@@ -1,0 +1,18 @@
+db.createCollection('Cientificos')
+db.Cientificos.insertOne(
+	{  
+		_DNI: '12345678A',
+		NomApels: 'Jordi Ribellas Ramos' 
+	}
+)
+
+
+db.createCollection('Asignado_A')
+db.Asignado_A.insertOne(
+	{  
+		_Cientifico: '12345678A',
+		_Proyecto: '1' 
+	}
+)
+
+
